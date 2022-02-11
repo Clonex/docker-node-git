@@ -1,5 +1,10 @@
 # docker-node-git
+A rebuild of the image using the latest node verison.
 Docker Image with Node and with Automatic Git Deployment functionalities including Webhooks
+
+```
+docker pull sejkom/docker-node-git
+```
 
 ## Configuration
 
@@ -51,6 +56,7 @@ There is a listener script copied to `/usr/bin/hook-listener` that will auto-sta
 
 
 ## Thanks to
+* [eduwass/docker-node-git](https://github.com/eduwass/docker-node-git/) - Original writer of repo
 * [phusion/baseimage-docker](https://github.com/phusion/baseimage-docker/) - Performance oriented base image
 * [ngineered/nginx-php-fpm](https://github.com/ngineered/nginx-php-fpm) - Git push/pull functionalities
 * [schickling/docker-hook](https://github.com/schickling/docker-hook) - Git Webhook listener
