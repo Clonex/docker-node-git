@@ -16,7 +16,7 @@ RUN npm install -g node-gyp
 RUN apt-get install -y supervisor
 
 # Install/setup Python deps
-RUN apt-get install -y python-pip
+RUN apt-get install -y python3-pip
 RUN pip install requests
 
 # Copy supervisor config
